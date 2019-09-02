@@ -22,7 +22,7 @@ function installPM2() {
 // transfers local project to the remote server
 function transferProjectToRemote(failed, successful) {
   return ssh.putDirectory(
-    '../starter-node-angular ',
+    '../starter-node-angular',
     '/home/ubuntu/starter-node-angular-temp',
     {
       recursive: true,
